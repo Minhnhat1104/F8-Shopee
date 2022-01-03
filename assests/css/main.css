@@ -21,6 +21,11 @@
     position: relative;
 }
 
+.header__navbar-item--has-qr:hover .header__qr{
+    display: block;
+    animation: fadeIn ease-in 0.5s;
+}
+
 .header__navbar-item,
 .header__navbar-item-link{
     font-size: 1.5rem;
@@ -76,4 +81,37 @@
 
 .header__navbar-icon-link{
 
+}
+
+/* Header QR code */
+
+.header__qr {
+    width: 187px;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    top: calc(100% + 8px); 
+    /* tinh theo thang chua no */
+    padding: 8px;
+    display: none;
+}
+
+.header__qr:hover {
+    display: block;
+}
+
+.header__qr-img {
+    width: 100%;
+}
+
+.header__qr-apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 11px;
+    border-radius: 2px;
+}
+
+.header__qr-download-img {
+    height: 15px;
 }
