@@ -115,3 +115,90 @@
 .header__qr-download-img {
     height: 15px;
 }
+
+/* Header notification */
+
+.header__navbar-item--show-notify:hover .header__notify{
+    display: block;
+    animation: fadeIn ease-in 0.5s;
+}
+
+.header__notify {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: calc(100% + 12px);
+    width: 371px;
+    background-color: var(--white-color);
+    border: 1px solid #D3D3D3;
+    text-align: left;
+    font-weight: 400;
+    cursor: default;
+}
+.header__notify-header h3, .header__notify-footer {
+    height: 40px;
+    margin: 0px 8px;
+    color: #999;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    user-select: none;
+}
+
+.header__notify-footer{
+    margin: 0px 0px;
+}
+
+.header__notify-footer-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+}
+
+.header__notify-list {
+    
+}
+
+.header__notify-item {
+}
+
+.header__notify-item--viewed{
+    background-color: rgba(238, 75, 43, 0.08);
+}
+
+.header__notify-item:hover{
+    background-color: #f7f7f7;
+}
+
+.header__notify-link {
+    padding: 8px;
+    display: flex;
+    text-decoration: none;
+    /* background-color:  */
+}
+
+.header__notify-img {
+    height: 48px;
+}
+.header__notify-info {
+    flex-grow: 1;
+    margin: 0px 8px;
+    text-align: left;
+}
+
+.header__notify-name {
+    display: block;
+    margin: 3px 0px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.header__notify-description {
+    display: block;
+    font-size: 1.2rem;
+    color: #baafad;
+    line-height: 1.6rem;
+}

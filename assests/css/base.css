@@ -1,7 +1,8 @@
 :root {
+    --primary-color: #ee4d2d;
     --white-color: #fff;
-    --black-color: #ccc;
-    --text-color: #3333;
+    --black-color: #000;
+    --text-color: #333;
 }
 
 * {
@@ -44,4 +45,9 @@ p {
     to {
         opacity: 1;
     }
+}
+
+ul{
+    padding: 0px 0px;
+    list-style-type: none;
 }
