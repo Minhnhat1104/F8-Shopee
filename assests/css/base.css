@@ -23,6 +23,8 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* responsive */
+
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -37,6 +39,10 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.grid__col {
+    
 }
 
 p {
@@ -91,6 +97,11 @@ ul{
 .btn.btn--primary{
     background-color: var(--primary-color);
     color: var(--white-color);
+}
+
+.btn.btn--primary:hover{
+    background-color: #f94e2f;
+    opacity: 0.9;
 }
 
 .btn.btn--disabled {
