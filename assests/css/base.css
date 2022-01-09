@@ -39,14 +39,25 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-}
-
-.grid__col {
-    
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 p {
     font-size: 1rem;
+}
+
+/* Test */
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.33333%;
 }
 
 @keyframes fadeIn {
@@ -81,6 +92,10 @@ ul{
     border-radius: 2px;
     font-size: 1.4rem;
     background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
 }
 
 .btn.btn--size-s{
@@ -108,4 +123,53 @@ ul{
     cursor: default;
     background-color: #c3c3c3;
     color: #949494;
+}
+
+.select-input {
+    min-width: 200px;
+    padding: 0px 12px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-input__label {
+    font-size: 1.4rem;
+}
+
+.select-input__icon {
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+/* list option */
+
+.select-input__list {
+    position: absolute;
+    top: calc(100% + 3px);
+    right: 0;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    display: none;
+}
+
+.select-input__item {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.select-input__item-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
+.select-input__item:hover .select-input__item-link {
+    color: var(--primary-color);
 }
