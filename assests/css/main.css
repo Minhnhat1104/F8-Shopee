@@ -1031,5 +1031,125 @@
 
 .home-filter__page-control-btn--disabled {
     cursor: default;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9;;
+}
+
+.home-product-item {
+    background-color: var(--white-color);
+    position: relative;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.home-product-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.home-product-item__name {
+    margin: 10px;
+    font-size: 1.3rem;
+    color: #a2a2a2;
+    font-weight: 600;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+.home-product-item__price {
+    display: flex;
+    margin: 10px 10px;
+    font-weight: 400;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.home-product-item__price-old {
+    font-size: 1.2rem;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: #838383;
+}
+
+.home-product-item__price-current {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.home-product-item__action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.home-product-item__like{
+    color: #f63f2e;
+}
+
+.home-product-item__rating{
+    color: var(--star-gold-color);
+    margin-left: auto;
+    margin-top: -1px;
+}
+
+.home-product-item__sold{
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+
+.home-product-item__origin{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #999;
+    font-weight: 300;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+
+.home-product-item__brand{
+
+}
+
+.home-product-item__origin-name{
+}
+
+.home-product-item__favourite{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-product-item__sale-off{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-product-item__sale-off-percent {
+    
+}
+
+.home-product-item__sale-off-label {
+
+}
+
+.home-product-item__like-icon-fill {
+    display: none;
+}
+
+.home-product-item__like--liked .home-product-item__like-icon-fill {
+    display: block;
+}
+
+.home-product-item__like--liked .home-product-item__like-icon-empty {
+    display: none;
 }
