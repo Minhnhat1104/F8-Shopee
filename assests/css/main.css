@@ -1160,8 +1160,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    border-top: 4px solid #c53225;
-    border-left: 4px solid transparent;
+    border-top: 3px solid #c53225;
+    border-left: 3px solid transparent;
 }
 
 .home-product-item__sale-off{
@@ -1175,6 +1175,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    line-height: 1.6rem;
 }
 
 .home-product-item__sale-off::after {
@@ -1190,14 +1191,15 @@
 
 .home-product-item__sale-off-percent {
     color: #f63f2e;
+    font-weight: 800;
     font-size: 1.2rem;
-    font-weight: 400;
+    margin-top: 4px;
 }
 
 .home-product-item__sale-off-label {
     color: var(--white-color);
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .home-product-item__like-icon-fill {
