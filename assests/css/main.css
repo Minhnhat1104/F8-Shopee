@@ -912,6 +912,7 @@
     font-weight: 600;
     height: 48px;
     line-height: 48px;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .category-heading-icon{
@@ -928,6 +929,10 @@
     line-height: 37px;
     margin: 0px 20px;
     border-top: 1px solid #ebebeb;
+}
+
+.category-item:first-child {
+    border-top: none;
 }
 
 .category-item-active .category-item-link::before {
@@ -1057,9 +1062,7 @@
     margin-bottom: 12px;
     margin-top: 10px;
     cursor: pointer;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-
+    border-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -1073,12 +1076,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 .home-product-item__name {
     margin: 10px;
     font-size: 1.3rem;
-    color: #a2a2a2;
+    color: #333;
     font-weight: 600;
     line-height: 1.8rem;
     height: 3.6rem;
@@ -1197,6 +1202,7 @@
     justify-content: center;
     text-align: center;
     line-height: 1.6rem;
+    border-top-right-radius: 2px;
 }
 
 .home-product-item__sale-off::after {
@@ -1233,4 +1239,78 @@
 
 .home-product-item__like--liked .home-product-item__like-icon-empty {
     display: none;
+}
+
+.home-product__pagination {
+    margin: 48px 0px 32px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item {
+
+}
+.pagination-item-link {
+    --height: 30px;
+    display: block;
+    margin: 0px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.0rem;
+    color: #939393;
+    width: 40px;
+    line-height: var(--height);
+    height: var(--height);
+    border-radius: 2px;
+}
+
+.pagination-item-link--active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item-link--active:hover {
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.pagination-item-icon {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-link {
+
+}
+
+.pagination-item-icon {
+
 }
