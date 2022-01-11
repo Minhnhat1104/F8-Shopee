@@ -1040,11 +1040,15 @@
     margin-bottom: 12px;
     margin-top: 10px;
     cursor: pointer;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
 }
 
 .home-product-item:hover {
     animation: goUp 0.2s;
     animation-fill-mode: forwards;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .home-product-item__img {
