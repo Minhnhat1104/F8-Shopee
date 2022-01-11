@@ -6,7 +6,8 @@
     --border-color: #dbdbdb;
     --header-height: 120px;
     --navbar-height: 34px;
-    --star-gold-color: #ffce3e;
+    --star-gold-color-rated: #ffce3e;
+    --star-gold-color-default: #e0e0e0;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
 }
 
@@ -82,6 +83,15 @@ p {
     }
     to {
         transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes goUp {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, -2px);
     }
 }
 
