@@ -753,13 +753,16 @@
 .header__cart-notice { 
     font-size: 1.4rem;
     background-color: var(--white-color);
-    padding: 0px 7px;
-    border-radius: 13px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 999px;
     color: var(--primary-color);
     font-weight: 400;
     position: absolute;
-    top: -7px;
-    right: 48px;
+    top: -8px;
+    right: -8px;
     border: 2px solid #EE4D2D;
 }
 
@@ -791,6 +794,7 @@
 .header__cart-icon{
     color: white;
     font-size: 2.6rem;
+    position: relative;
 }
 
 .header__cart-list-item {
@@ -845,6 +849,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     max-height: 32px;
+    text-align: left;
 }
 
 .header__cart-item-price {
